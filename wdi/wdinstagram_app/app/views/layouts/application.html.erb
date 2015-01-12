@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WdinstagramApp</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<h2>Welcome to WDInstagram</h2>
+	<h2><%= link_to 'New Entry', new_entry_path %></h2>
+	<h2><%= link_to 'Entries', entries_path %></h2>
+
+<%= yield %>
+
+</body>
+</html>
