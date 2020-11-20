@@ -23,7 +23,7 @@ import * as d3 from 'd3-ease';
 import { getGEOData, getUSStates } from './services';
 import { useMapStyles } from './Map.styles';
 
-export default function Map({totals, localData}) {
+export default function Map({totals}) {
   const classes = useMapStyles();
   const isMdBreakpoint = useMediaQuery('(min-width: 960px)');
 

@@ -85,7 +85,7 @@ function App() {
   }, []); // eslint-disable-line
 
   return (
-    <Map totals={totals} localData={localData} />
+    <Map totals={totals} />
   );
 }
 
